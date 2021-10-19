@@ -1,4 +1,5 @@
 ﻿using System;
+using ClassLib;
 
 namespace CalcSqrtDemo
 {
@@ -18,21 +19,7 @@ namespace CalcSqrtDemo
 
             Console.WriteLine($"Calc SQRT({c})");
 
-            var min = 1.0;
-            var max = c;
-            var tol = 1e-4;
-            var delta = c;
-            var x = c;
-
-            while (Math.Abs(delta) > tol)
-            {
-                x = (max + min) / 2;
-                delta = x * x - c;
-
-                (min, max) = (delta > 0) ? (min, x) : (x, max);
-
-                Console.WriteLine($"x={x} d={delta}");
-            }
+            var x = SqrtCalculator.Calculate(c);
 
             Console.WriteLine($"SQRT = {x}");
 

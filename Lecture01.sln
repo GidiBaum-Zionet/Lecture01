@@ -8,7 +8,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TextFile1.txt = TextFile1.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcSqrtDemo", "CalcSqrtDemo\CalcSqrtDemo.csproj", "{0EAA1CAA-263A-4701-8930-6C1B41F59DAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcSqrtDemo", "CalcSqrtDemo\CalcSqrtDemo.csproj", "{0EAA1CAA-263A-4701-8930-6C1B41F59DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqrtUnitTest", "SqrtUnitTest\SqrtUnitTest.csproj", "{F3C50156-0BA6-4A61-B8DF-75D1EF5A1799}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLib", "ClassLib\ClassLib.csproj", "{A3C0AEFE-36AB-4496-8A2C-14877BEA6999}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +24,14 @@ Global
 		{0EAA1CAA-263A-4701-8930-6C1B41F59DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EAA1CAA-263A-4701-8930-6C1B41F59DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EAA1CAA-263A-4701-8930-6C1B41F59DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C50156-0BA6-4A61-B8DF-75D1EF5A1799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C50156-0BA6-4A61-B8DF-75D1EF5A1799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C50156-0BA6-4A61-B8DF-75D1EF5A1799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C50156-0BA6-4A61-B8DF-75D1EF5A1799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C0AEFE-36AB-4496-8A2C-14877BEA6999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C0AEFE-36AB-4496-8A2C-14877BEA6999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C0AEFE-36AB-4496-8A2C-14877BEA6999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C0AEFE-36AB-4496-8A2C-14877BEA6999}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
