@@ -19,7 +19,7 @@ namespace SqrtUnitTest
         {
             var rnd = new Random();
             var tol = 1e-4;
-            double x;
+            double x = 0;
 
             for (var i = 0; i < 100; i++)
             {
