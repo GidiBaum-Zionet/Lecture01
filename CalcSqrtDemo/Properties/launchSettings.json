@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CalcSqrtDemo": {
+      "commandName": "Project",
+      "commandLineArgs": "16"
+    }
+  }
+}
