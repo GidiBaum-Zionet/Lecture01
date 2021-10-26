@@ -21,10 +21,12 @@ namespace SqrtUnitTest
             var tol = 1e-4;
             double x = 0;
 
-            for (var i = 0; i < 100; i++)
+            for (var i = 0; i < 1; i++)
             {
                 var c = rnd.NextDouble() * 10;
                 var x0 = Math.Sqrt(c);
+
+                c = -1;
 
                 try
                 {

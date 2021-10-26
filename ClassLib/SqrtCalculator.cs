@@ -10,6 +10,9 @@ namespace ClassLib
     {
         public static double Calculate(double c)
         {
+            if (c < 0)
+                throw new Exception("Negative SQRT not supported");
+
             var min = 1.0;
             var max = c;
             var tol = 1e-4;
