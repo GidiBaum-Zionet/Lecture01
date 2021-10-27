@@ -77,6 +77,7 @@ namespace Base.Wpf
         {
             _Visual = visual;
 
+            _CurrentPen = new Pen(new SolidColorBrush(Colors.Black), 1);
             LineColor = Colors.Black;
             FillColor = Colors.Black;
         }
