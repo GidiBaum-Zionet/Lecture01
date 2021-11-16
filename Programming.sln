@@ -33,9 +33,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture03", "Lecture03", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "Lecture03\WebApplication1\WebApplication1.csproj", "{692DAF1F-CA1D-41F7-8DE7-2F80B4D76D38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementLib", "ElementLib\ElementLib.csproj", "{02E37A4A-F38C-4E07-AE03-58F15C530F33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElementLib", "ElementLib\ElementLib.csproj", "{02E37A4A-F38C-4E07-AE03-58F15C530F33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementTest", "ElementTest\ElementTest.csproj", "{799CFA7E-5842-4F54-8F73-5BE675EF0FA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElementTest", "ElementTest\ElementTest.csproj", "{799CFA7E-5842-4F54-8F73-5BE675EF0FA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture04", "Lecture04", "{333D7F71-458A-43C0-BA3C-120A146B9A21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
