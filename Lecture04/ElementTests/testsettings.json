@@ -1,0 +1,7 @@
+{
+    "Mongodb": {
+        "ConnectionString": "mongodb://localhost:27017",
+        "Database": "ElementDb",
+        "TableName": "Elements"
+    }
+}

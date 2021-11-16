@@ -1,0 +1,32 @@
+
+services:
+
+#------------------------ mysql ---------------------------
+  mysql:
+    image: mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: qwerty
+    ports:
+      - "3306:3306"
+    volumes:
+      - 'mySqlVolume:/var/lib/mysql'
+
+#------------------------ mongodb ---------------------------
+  
+  mongodb:
+    image : mongo
+    environment:
+        - PUID=1000
+        - PGID=1000
+    volumes:
+        - 'mongodbVolume:/data/db'
+    ports:
+        - 27017:27017
+    restart: unless-stopped
+
+
+volumes:
+  mySqlVolume:
+  mongodbVolume:
+  
