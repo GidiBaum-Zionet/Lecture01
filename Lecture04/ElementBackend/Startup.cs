@@ -23,7 +23,6 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using MongoDB.Driver;
 using Serilog;
-using ElementRepository = ElementLib.Infrastructure.Mongo.ElementRepository;
 
 namespace ElementBackend
 {
@@ -59,7 +58,9 @@ namespace ElementBackend
                 var dbName = Configuration["Mongodb:Database"];
                 var tableName = Configuration["Mongodb:TableName"];
 
-                services.AddSingleton<IElementRepository, ElementRepository>();
+                services.AddSingleton<IElementRepository, 
+                    ElementLib.Infrastructure.Mongo.ElementRepository>();
+
                 services.AddSingleton(sp => 
                     new MongoDb<ElementEntity>(new MongoClient(connectionStr), 
                         dbName, tableName));

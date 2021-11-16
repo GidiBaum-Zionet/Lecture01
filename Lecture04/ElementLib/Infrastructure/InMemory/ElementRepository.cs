@@ -15,7 +15,9 @@ namespace ElementLib.Infrastructure.InMemory
             if (ElementMap is null)
                 ElementMap = new Dictionary<string, ElementEntity>();
 
-            var list = ElementMap.Select(kv => kv.Value).ToList();
+            var list = ElementMap
+                .Select(kv => kv.Value)
+                .ToList();
 
             return Task.FromResult<IList<ElementEntity>>(list);
         }
