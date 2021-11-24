@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56466632-4785-429E-AA80-0E92C47FC4E5}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
+		RunDocker.txt = RunDocker.txt
 		TextFile1.txt = TextFile1.txt
 		TextFile2.txt = TextFile2.txt
 	EndProjectSection
@@ -43,6 +44,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElementTest", "Lecture04\ElementTest\ElementTest.csproj", "{A0B72443-14F7-4032-B9BA-51FE1EE03975}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElementUnitTests", "Lecture04\ElementTests\ElementUnitTests.csproj", "{3152A866-72B7-4DF8-AC95-45DE4B27C47C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture05", "Lecture05", "{D3F34BC8-7643-462E-B31F-9086534FB3B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqDemo", "Lecture05\LinqDemo\LinqDemo.csproj", "{46F62886-BA4E-4B04-867E-83D89010F17B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -98,6 +103,10 @@ Global
 		{3152A866-72B7-4DF8-AC95-45DE4B27C47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3152A866-72B7-4DF8-AC95-45DE4B27C47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3152A866-72B7-4DF8-AC95-45DE4B27C47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F62886-BA4E-4B04-867E-83D89010F17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F62886-BA4E-4B04-867E-83D89010F17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F62886-BA4E-4B04-867E-83D89010F17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F62886-BA4E-4B04-867E-83D89010F17B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +124,7 @@ Global
 		{ACEF85CE-0C1C-4229-8C3D-BCF6D0CF53A2} = {333D7F71-458A-43C0-BA3C-120A146B9A21}
 		{A0B72443-14F7-4032-B9BA-51FE1EE03975} = {333D7F71-458A-43C0-BA3C-120A146B9A21}
 		{3152A866-72B7-4DF8-AC95-45DE4B27C47C} = {333D7F71-458A-43C0-BA3C-120A146B9A21}
+		{46F62886-BA4E-4B04-867E-83D89010F17B} = {D3F34BC8-7643-462E-B31F-9086534FB3B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C040EE12-CAE4-4F5B-87D9-EE47E64A0153}

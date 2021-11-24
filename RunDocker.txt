@@ -1,0 +1,3 @@
+cd [Folder of docker-compose.yml]
+
+> docker-compose up
